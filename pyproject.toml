@@ -1,29 +1,22 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Natural Language Processing (NLP)"
+name = "Natural-Language-Processing-(NLP)"
 version = "0.1.0"
-description = "Projenizin kısa bir açıklamasıWelcome to my personal repository dedicated to projects in the field of Natural Language Processing (NLP). Here, you'll find a collection of my work ranging from academic experiments to practical applications, all aimed at exploring the vast capabilities and recent advancements in NLP."
+description = "Welcome to my personal repository dedicated to projects in the field of Natural Language Processing (NLP). Here, you'll find a collection of my work ranging from academic experiments to practical applications, all aimed at exploring the vast capabilities and recent advancements in NLP."
 authors = [
     { name = "Zülfükar MİNAZ", email = "zlfkrmnz@gmail.com" },
 ]
-license = "MIT"
+license = {text = "MIT License"}
 readme = "README.md"
 requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
+keywords = ["nlp", "summarize", "nltk"]
 dependencies = [
     "nltk>=3.5",
 ]
 
 [project.urls]
-homepage = "https://github.com/zlfkrmnz/Natural-Language-Processing-NLP-Projects"
-documentation = "https://github.com/zlfkrmnz/Natural-Language-Processing-NLP-Projects#readme"
+Homepage = "https://github.com/zlfkrmnz/Natural-Language-Processing-NLP-Projects"
+Documentation = "https://github.com/zlfkrmnz/Natural-Language-Processing-NLP-Projects#readme"
