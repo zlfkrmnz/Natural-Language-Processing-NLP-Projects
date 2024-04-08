@@ -3,7 +3,7 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Natural-Language-Processing-(NLP)"
+name = "Natural-Language-Processing-NLP"
 version = "0.1.0"
 description = "Welcome to my personal repository dedicated to projects in the field of Natural Language Processing (NLP). Here, you'll find a collection of my work ranging from academic experiments to practical applications, all aimed at exploring the vast capabilities and recent advancements in NLP."
 authors = [
